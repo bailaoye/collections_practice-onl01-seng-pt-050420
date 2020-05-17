@@ -32,7 +32,7 @@ end
 def find_a(array)
   array.each do |string|
     if string.start_with?("a")
-      string
+      return string
     else
       break
     end
