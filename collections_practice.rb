@@ -33,8 +33,6 @@ def find_a(array)
   array.each do |string|
     if string.start_with?("a")
       return string
-    else
-      break
     end
   end
 end
