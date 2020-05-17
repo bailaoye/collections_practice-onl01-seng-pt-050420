@@ -30,9 +30,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.each do |string|
-    if string.start_with?("a")
-      
-    end
+  array.find_all do |word|
+    word[0] == "a"
   end
 end
