@@ -34,7 +34,7 @@ def find_a(array)
     if string.start_with?("a")
       string
     else
-      break
+      
     end
   end
 end
